@@ -1,5 +1,5 @@
 module Commontator
-  class ApplicationController < ActionController::Base
+  class ApplicationController < ::ApplicationController
     before_filter :get_user
     
     cattr_accessor :commontable_url
